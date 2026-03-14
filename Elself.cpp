@@ -11,3 +11,13 @@ string Status_lulus(float r){
     else
         return "Gagal";     
 }
+
+int main(){
+    float nilbI,nilMT,rerata;
+    string status;
+
+    cout <<"Masukkan nilai Bahasa Inggris = ";
+    cin >> nilbI;
+    cout <<"Masukkan nilai Matematika = ";
+    cin >> nilMT;
+}
