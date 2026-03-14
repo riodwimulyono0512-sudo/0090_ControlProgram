@@ -20,4 +20,15 @@ int main(){
     cin >> nilbI;
     cout <<"Masukkan nilai Matematika = ";
     cin >> nilMT;
+
+    //rerata = (nilai nilbi+nilMT)/2;
+    //if (rerata >= 60)
+    //    status = "Lolos";
+    //else
+      // status = "Gagal";
+    rerata = Rata_rata(nilbI,nilMT);
+    //status = Status_lulus(rerata);
+
+    cout << "Status kelulusan = "<<Status_lulus(rerata)<<" ,dengan nilai rerata = "<<rerata<<endl;
+    
 }
